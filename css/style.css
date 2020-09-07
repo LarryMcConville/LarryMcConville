@@ -31,6 +31,7 @@ header h1 {
 
 .container h2 {
     font-size: 2em;
+    margin: 26px 0px;
 }
 
 .container #main-bio {
