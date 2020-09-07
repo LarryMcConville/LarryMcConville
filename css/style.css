@@ -29,24 +29,34 @@ header h1 {
     margin: 0 auto;
 }
 
-.container section h2 {
+.container h2 {
     font-size: 2em;
 }
 
-.container section #main-bio {
+.container #main-bio {
     float: left;
     width: 70%;
 }
 
-.container section #bio-image {
+.container #bio-image {
     float: left;
     width: 200px;
     margin: 10px;
 }
 
-.container section #contact-info {
+.container #contact-info {
     float: left;
     width: 30%;
     line-height: 150%;
 }
 
+.footer {
+    clear: both;
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 1.25em;
+}
