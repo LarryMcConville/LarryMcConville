@@ -51,13 +51,15 @@ header h1 {
     line-height: 150%;
 }
 
-.footer {
+.container #closing-blurb {
     clear: both;
-    padding: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    float: left;
+    width: 100%;
 }
 
-.footer h2 {
-    font-size: 1.25em;
+.footer {
+    clear: both;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
