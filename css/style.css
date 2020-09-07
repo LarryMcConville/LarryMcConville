@@ -1,3 +1,7 @@
+/*Chrome's default stylesheet
+https://gist.github.com/ambidexterich/34828a904dd97dd2a345
+*/
+
 body {
     background-color: #efeee7;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -17,7 +21,7 @@ header h1 {
     text-align: center;
     margin: 0;
     padding: 10px;
-    display: block;
+    display: block; /*as seen on Chrome's default stylesheet*/
 }
 
 .container {
@@ -25,22 +29,22 @@ header h1 {
     margin: 0 auto;
 }
 
-.container h2 {
+.container section h2 {
     font-size: 2em;
 }
 
-#main-bio {
+.container section #main-bio {
     float: left;
     width: 70%;
 }
 
-#bio-image {
+.container section #bio-image {
     float: left;
     width: 200px;
     margin: 10px;
 }
 
-#contact-info {
+.container section #contact-info {
     float: left;
     width: 30%;
     line-height: 150%;
